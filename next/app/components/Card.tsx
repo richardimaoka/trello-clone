@@ -1,5 +1,7 @@
-import { Button } from "./Button";
+import { CardButton } from "./CardButton";
 import styles from "./Card.module.css";
+
+import { faUser } from "@fortawesome/free-regular-svg-icons";
 
 interface Props {
   title: string;
@@ -12,13 +14,7 @@ export function Card(props: Props) {
       <div>
         <div>contents</div>
         <div>
-          <Button name={"Members"} />
-          <Button name={"Labels"} />
-          <Button name={"Checklist"} />
-          <Button name={"Dates"} />
-          <Button name={"Attachment"} />
-          <Button name={"Cover"} />
-          <Button name={"Custom Fields"} />
+          <CardButton name={"Members"} icon={faUser} />
         </div>
       </div>
     </div>

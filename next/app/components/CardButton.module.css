@@ -1,10 +1,11 @@
 .component {
-  background-color: grey;
+  background-color: darkgrey;
 
   width: 200px;
-  padding: 2px;
+  padding: 4px 8px;
 
   display: flex;
+  column-gap: 10px;
 }
 
 .icon {
@@ -19,4 +20,5 @@
 
 .icon svg {
   font-size: 16px;
+  color: rgb(31, 31, 31);
 }
