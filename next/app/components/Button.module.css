@@ -1,0 +1,11 @@
+.component {
+  background-color: grey;
+
+  width: 200px;
+  padding: 2px;
+
+  display: flex;
+}
+
+.icon {
+}
