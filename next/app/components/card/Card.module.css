@@ -1,0 +1,11 @@
+.component {
+  background-color: lightgrey;
+
+  /* TODO: placeholder width/height */
+  max-width: 768px;
+  height: 900px;
+
+  padding: 20px;
+
+  border-radius: 10px;
+}
