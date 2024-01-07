@@ -1,7 +1,12 @@
-import { CardButton } from "./CardButton";
 import styles from "./Card.module.css";
+import { CardButtonAttachment } from "./CardButtonAttachment";
+import { CardButtonChecklist } from "./CardButtonChecklist";
+import { CardButtonCover } from "./CardButtonCover";
+import { CardButtonCustomFields } from "./CardButtonCustomFields";
+import { CardButtonDates } from "./CardButtonDates";
+import { CardButtonLabels } from "./CardButtonLabels";
 
-import { faUser } from "@fortawesome/free-regular-svg-icons";
+import { CardButtonMembers } from "./CardButtonMembers";
 
 interface Props {
   title: string;
@@ -14,7 +19,13 @@ export function Card(props: Props) {
       <div>
         <div>contents</div>
         <div>
-          <CardButton name={"Members"} icon={faUser} />
+          <CardButtonMembers />
+          <CardButtonLabels />
+          <CardButtonChecklist />
+          <CardButtonDates />
+          <CardButtonAttachment />
+          <CardButtonCover />
+          <CardButtonCustomFields />
         </div>
       </div>
     </div>
