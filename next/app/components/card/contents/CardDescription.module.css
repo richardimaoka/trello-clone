@@ -1,0 +1,16 @@
+.component {
+  display: flex;
+}
+
+.side {
+  width: 56px;
+}
+
+.body {
+  flex-grow: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}

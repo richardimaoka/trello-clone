@@ -1,8 +1,5 @@
 .component {
-  background-color: blueviolet;
-
-  /* TODO: placeholder width/height */
-  height: 500px;
+  background-color: grey;
 }
 
 .notifications {
