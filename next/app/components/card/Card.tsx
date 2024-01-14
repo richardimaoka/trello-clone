@@ -12,10 +12,10 @@ export function Card(props: Props) {
     <div className={styles.component}>
       <CardTitle title={props.title} />
       <div className={styles.body}>
-        <div>
+        <div className={styles.contents}>
           <CardContents />
         </div>
-        <div>
+        <div className={styles.controls}>
           <CardControls />
         </div>
       </div>

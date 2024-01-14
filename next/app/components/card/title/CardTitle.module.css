@@ -2,5 +2,20 @@
   /* TODO: placeholder width/height */
   height: 50px;
 
+  display: flex;
   background-color: darkgrey;
+}
+
+.left {
+  width: 30px;
+  flex-grow: 0;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.right {
+  width: 30px;
+  flex-grow: 0;
 }
