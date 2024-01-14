@@ -1,14 +1,11 @@
-import styles from "./CardButton.module.css";
+import styles from "./CardWatching.module.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { IconDefinition } from "@fortawesome/fontawesome-common-types";
+import { faBell } from "@fortawesome/free-regular-svg-icons";
 
-interface Props {
-  name: string;
-  icon: IconDefinition;
-}
+interface Props {}
 
-export function CardButton(props: Props) {
+export function CardWatchingButton(props: Props) {
   return (
     <div className={styles.component}>
       <div className={styles.icon}>
@@ -23,9 +20,9 @@ export function CardButton(props: Props) {
             Setting icons to use a fixed-width helps when you're trying to align icons in a vertical column.
             <FontAwesomeIcon icon="fa-solid fa-coffee" fixedWidth />
         */}
-        <FontAwesomeIcon icon={props.icon} fixedWidth />
+        <FontAwesomeIcon icon={faBell} fixedWidth />
       </div>
-      <div>{props.name}</div>
+      <div>Watch</div>
     </div>
   );
 }

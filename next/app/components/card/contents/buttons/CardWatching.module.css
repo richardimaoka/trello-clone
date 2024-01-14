@@ -1,11 +1,12 @@
 .component {
   background-color: darkgrey;
 
-  width: 200px;
-  padding: 4px 8px;
+  padding: 6px 12px;
 
   display: flex;
-  column-gap: 10px;
+  column-gap: 6px;
+
+  width: fit-content;
 }
 
 .icon {
