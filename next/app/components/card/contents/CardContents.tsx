@@ -8,10 +8,17 @@ interface Props {}
 export function CardContents(props: Props) {
   return (
     <div className={styles.component}>
-      <CardNotifications />
-      <CardDescription />
-      <CardActivity />
-      <CardActivity />
+      <div className={styles.notifications}>
+        <CardNotifications />
+      </div>
+
+      <div className={styles.description}>
+        <CardDescription />
+      </div>
+
+      <div className={styles.activity}>
+        <CardActivity />
+      </div>
     </div>
   );
 }

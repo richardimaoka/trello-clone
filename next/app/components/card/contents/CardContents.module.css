@@ -4,3 +4,15 @@
   /* TODO: placeholder width/height */
   height: 500px;
 }
+
+.notifications {
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.activity {
+  margin-bottom: 20px;
+}
