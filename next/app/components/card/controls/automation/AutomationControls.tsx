@@ -10,7 +10,7 @@ interface Props {
 export function AutomationControls(props: Props) {
   return (
     <div>
-      <div className={styles.title}>Power-Ups</div>
+      <div className={styles.title}>Automation</div>
       <div className={styles.buttons}>
         {props.buttons.map((b) => (
           <AutomationButton key={b.name} name={b.name} />
