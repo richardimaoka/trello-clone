@@ -1,4 +1,4 @@
-import { CardActivity } from "./CardActivity";
+import { CardActivities } from "./CardActivities";
 import { CardDescription } from "./CardDescription";
 import { CardNotifications } from "./CardNotifications";
 import styles from "./CardContents.module.css";
@@ -17,7 +17,7 @@ export function CardContents(props: Props) {
       </div>
 
       <div className={styles.activity}>
-        <CardActivity />
+        <CardActivities />
       </div>
     </div>
   );
