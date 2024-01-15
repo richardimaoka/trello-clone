@@ -10,9 +10,10 @@ interface Props {
 
 export function CardButton(props: Props) {
   return (
-    <div className={styles.component}>
-      <div className={styles.icon}>
-        {/* 
+    <button className={styles.component}>
+      <div className={styles.flex}>
+        <div className={styles.icon}>
+          {/* 
             https://fontawesome.com/v6/docs/web/style/fixed-width
             Font Awesome icons are designed on grid and share a consistent height.
             But they vary in width depending on how wide or narrow each symbol is.
@@ -23,9 +24,10 @@ export function CardButton(props: Props) {
             Setting icons to use a fixed-width helps when you're trying to align icons in a vertical column.
             <FontAwesomeIcon icon="fa-solid fa-coffee" fixedWidth />
         */}
-        <FontAwesomeIcon icon={props.icon} fixedWidth />
+          <FontAwesomeIcon icon={props.icon} fixedWidth />
+        </div>
+        <div className={styles.text}>{props.name}</div>
       </div>
-      <div className={styles.text}>{props.name}</div>
-    </div>
+    </button>
   );
 }
