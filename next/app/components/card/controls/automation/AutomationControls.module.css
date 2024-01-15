@@ -1,0 +1,9 @@
+.title {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.buttons > button {
+  margin-bottom: 8px;
+}
