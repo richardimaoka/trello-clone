@@ -1,4 +1,6 @@
-import { AddToCardControls } from "./AddToCardControls";
+import { PowerUpControls } from "./PowerUpControls";
+
+const buttons = [{ name: "Slack" }];
 
 // TODO: remove this
 export default function Page() {
@@ -9,7 +11,7 @@ export default function Page() {
         width: "300px",
       }}
     >
-      <AddToCardControls />
+      <PowerUpControls buttons={buttons} />
     </div>
   );
 }

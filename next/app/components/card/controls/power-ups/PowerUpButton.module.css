@@ -1,0 +1,35 @@
+.component {
+  display: block;
+  background-color: #091e420f;
+  padding: 8px;
+
+  /* cancel button styling */
+  border-style: none;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  column-gap: 10px;
+}
+
+.icon {
+  /* https://fontawesome.com/docs/web/style/fixed-width
+  Font Awesome icons are designed on grid and share a consistent height. 
+  But they vary in width depending on how wide or narrow each symbol is. */
+  height: 16px;
+
+  /* preven unexpected text-select upon button-press/tap attempt */
+  user-select: none;
+}
+
+.icon svg {
+  font-size: 16px;
+  color: #172b4d;
+}
+
+.text {
+  color: #172b4d;
+  font-size: 13px;
+  font-weight: 700;
+}
