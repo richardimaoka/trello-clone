@@ -25,7 +25,7 @@ export function CardButton(props: Props) {
         */}
         <FontAwesomeIcon icon={props.icon} fixedWidth />
       </div>
-      <div>{props.name}</div>
+      <div className={styles.text}>{props.name}</div>
     </div>
   );
 }

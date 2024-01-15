@@ -13,14 +13,16 @@ interface Props {}
 export function AddToCardControls(props: Props) {
   return (
     <div>
-      <div>Add to card</div>
-      <CardButtonMembers />
-      <CardButtonLabels />
-      <CardButtonChecklist />
-      <CardButtonDates />
-      <CardButtonAttachment />
-      <CardButtonCover />
-      <CardButtonCustomFields />
+      <div className={styles.title}>Add to card</div>
+      <div className={styles.buttons}>
+        <CardButtonMembers />
+        <CardButtonLabels />
+        <CardButtonChecklist />
+        <CardButtonDates />
+        <CardButtonAttachment />
+        <CardButtonCover />
+        <CardButtonCustomFields />
+      </div>
     </div>
   );
 }

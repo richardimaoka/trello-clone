@@ -1,6 +1,5 @@
 .component {
-  background-color: darkgrey;
-
+  background-color: #091e420f;
   padding: 4px 8px;
 
   display: flex;
@@ -19,5 +18,11 @@
 
 .icon svg {
   font-size: 16px;
-  color: rgb(31, 31, 31);
+  color: #172b4d;
+}
+
+.text {
+  color: #172b4d;
+  font-size: 13px;
+  font-weight: 700;
 }
