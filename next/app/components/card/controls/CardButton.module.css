@@ -1,7 +1,6 @@
 .component {
   background-color: darkgrey;
 
-  width: 200px;
   padding: 4px 8px;
 
   display: flex;

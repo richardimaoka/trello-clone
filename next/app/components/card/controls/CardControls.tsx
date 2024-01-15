@@ -1,25 +1,11 @@
-import { CardButtonAttachment } from "./CardButtonAttachment";
-import { CardButtonChecklist } from "./CardButtonChecklist";
-import { CardButtonCover } from "./CardButtonCover";
-import { CardButtonCustomFields } from "./CardButtonCustomFields";
-import { CardButtonDates } from "./CardButtonDates";
-import { CardButtonLabels } from "./CardButtonLabels";
-import { CardButtonMembers } from "./CardButtonMembers";
+import { AddToCardControls } from "./add-to-card/AddToCardControls";
 
 interface Props {}
 
 export function CardControls(props: Props) {
   return (
     <div>
-      <div>Add to card</div>
-      <CardButtonMembers />
-      <CardButtonLabels />
-      <CardButtonChecklist />
-      <CardButtonDates />
-      <CardButtonAttachment />
-      <CardButtonCover />
-      <CardButtonCustomFields />
-
+      <AddToCardControls />
       <div>Power-Ups</div>
       <div>+Add Power-Ups</div>
 
