@@ -1,0 +1,10 @@
+.component {
+  /* Stack Overflow: button with display:block not stretched - https://stackoverflow.com/questions/9699039/button-with-displayblock-not-stretched */
+  display: block;
+  border-style: none;
+
+  /* Position it on top-right, with padding */
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
