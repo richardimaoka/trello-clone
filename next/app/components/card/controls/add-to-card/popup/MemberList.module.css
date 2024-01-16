@@ -1,0 +1,13 @@
+.component {
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.items > div {
+  margin-bottom: 8px;
+}

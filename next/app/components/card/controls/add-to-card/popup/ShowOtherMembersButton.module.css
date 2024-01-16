@@ -1,0 +1,13 @@
+.component {
+  background-color: #091e420f;
+  padding: 8px;
+
+  /* cancel button styling */
+  border-style: none;
+  width: 100%;
+
+  /* text styling */
+  color: #172b4d;
+  font-size: 13px;
+  font-weight: 700;
+}

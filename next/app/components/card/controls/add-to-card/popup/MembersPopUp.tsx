@@ -1,34 +1,22 @@
-import Image from "next/image";
+import { MemberList } from "./MemberList";
+import { MemberListItem } from "./MemberListItem";
+import { MemberSearchBox } from "./MemberSearchBox";
 import styles from "./MembersPopUp.module.css";
+import { MembersPopUpHeader } from "./MembersPopUpHeader";
+import { ShowOtherMembersButton } from "./ShowOtherMembersButton";
 
 interface Props {}
 
 export function MembersPopUp(props: Props) {
   return (
     <div className={styles.component}>
-      <div className={styles.title}>
-        <div className={styles.titletext}>Members</div>
-        <button className={styles.close}>x</button>
-      </div>
+      <MembersPopUpHeader />
 
-      <input
-        className={styles.searchbox}
-        type="text"
-        placeholder="Search members"
-      />
+      <MemberSearchBox />
 
-      <div>
-        <div>Board members</div>
-        <Image
-          src={"/images/richardimaoka.png"}
-          alt={""}
-          width={48}
-          height={48}
-        />
-        <div>richard imaoka</div>
-      </div>
+      <MemberList />
 
-      <button>show otehr workspace members</button>
+      <ShowOtherMembersButton />
     </div>
   );
 }
