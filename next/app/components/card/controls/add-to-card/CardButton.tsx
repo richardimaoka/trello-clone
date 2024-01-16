@@ -6,11 +6,12 @@ import { IconDefinition } from "@fortawesome/fontawesome-common-types";
 interface Props {
   name: string;
   icon: IconDefinition;
+  onClick?: () => void;
 }
 
 export function CardButton(props: Props) {
   return (
-    <button className={styles.component}>
+    <button className={styles.component} onClick={props.onClick}>
       <div className={styles.flex}>
         <div className={styles.icon}>
           {/* 

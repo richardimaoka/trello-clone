@@ -1,0 +1,9 @@
+.component {
+  /* To hold `position: absolute` elements inside */
+  position: relative;
+}
+
+.popup {
+  position: absolute;
+  left: 0px;
+}

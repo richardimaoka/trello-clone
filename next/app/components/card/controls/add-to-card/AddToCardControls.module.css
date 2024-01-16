@@ -4,6 +4,6 @@
   margin-bottom: 8px;
 }
 
-.buttons > button {
+.buttons > * {
   margin-bottom: 8px;
 }
